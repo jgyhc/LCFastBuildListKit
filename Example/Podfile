@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LCFastBuildListKit_Example' do
+  pod 'LCFastBuildListKit', :path => '../'
+
+  target 'LCFastBuildListKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
