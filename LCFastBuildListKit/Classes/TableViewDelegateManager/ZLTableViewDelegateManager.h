@@ -38,6 +38,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) UITableView *tableView;
 
+
+/**
+ 调此方法会调一次数据源的代理方法
+ */
+- (void)reloadData;
 @end
 
 NS_ASSUME_NONNULL_END

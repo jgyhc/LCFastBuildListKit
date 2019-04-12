@@ -69,6 +69,14 @@
     [collectionView reloadData];
 }
 
+
+- (void)reloadData {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(dataSource:)]) {
+        self.datas = [self.delegate dataSource:self];
+    }
+    [self.collectionView reloadData];
+}
+
 #pragma mark <UICollectionViewDataSource>
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {

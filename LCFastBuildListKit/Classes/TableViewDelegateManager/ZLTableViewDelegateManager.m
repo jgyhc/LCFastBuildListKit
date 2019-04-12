@@ -46,10 +46,14 @@
             }];
         }
     }
+    [self reloadData];
+}
+
+- (void)reloadData {
     if (self.delegate && [self.delegate respondsToSelector:@selector(dataSource:)]) {
         self.datas = [self.delegate dataSource:self];
     }
-    [tableView reloadData];
+    [self.tableView reloadData];
 }
 
 #pragma mark -- UITableViewDataSource method
