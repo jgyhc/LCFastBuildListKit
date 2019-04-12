@@ -1,0 +1,6 @@
+framework module LCFastBuildListKit {
+  umbrella header "LCFastBuildListKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LCFastBuildListKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of LCFastBuildListKit.'
+  s.version          = '0.1.1'
+  s.summary          = '对tableView和collectionView进行简单封装   方便快速搭建较复杂的列表页面.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -38,5 +38,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'UITableView+FDTemplateLayoutCell'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

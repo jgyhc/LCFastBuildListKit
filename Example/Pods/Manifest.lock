@@ -1,0 +1,23 @@
+PODS:
+  - LCFastBuildListKit (0.1.0):
+    - "UITableView+FDTemplateLayoutCell"
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+
+DEPENDENCIES:
+  - LCFastBuildListKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - "UITableView+FDTemplateLayoutCell"
+
+EXTERNAL SOURCES:
+  LCFastBuildListKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LCFastBuildListKit: 99cae4f0e4401ae7b31d1caace64f09e39185d05
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+
+PODFILE CHECKSUM: 71e311f5133fee00199f3aab080f62819b49fbab
+
+COCOAPODS: 1.6.0
