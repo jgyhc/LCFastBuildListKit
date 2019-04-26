@@ -131,4 +131,10 @@
     }
 }
 
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(scrollViewDidScroll:manager:)]) {
+        [self.delegate scrollViewDidScroll:scrollView manager:self];
+    }
+}
+
 @end

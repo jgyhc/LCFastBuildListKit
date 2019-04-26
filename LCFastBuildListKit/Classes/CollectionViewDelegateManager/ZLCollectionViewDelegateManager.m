@@ -62,11 +62,7 @@
     //默认注册
     [collectionView registerClass:NSClassFromString(@"UICollectionReusableView") forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:@"UICollectionReusableView"];
     [collectionView registerClass:NSClassFromString(@"UICollectionReusableView") forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"UICollectionReusableView"];
-    
-    if (self.delegate && [self.delegate respondsToSelector:@selector(dataSource:)]) {
-        self.datas = [self.delegate dataSource:self];
-    }
-    [collectionView reloadData];
+    [self reloadData];
 }
 
 

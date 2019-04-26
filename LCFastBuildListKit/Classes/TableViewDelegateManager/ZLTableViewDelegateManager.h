@@ -30,6 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)cellInitializeWithModel:(ZLTableViewRowModel *)model cell:(UITableViewCell *)cell manager:(ZLTableViewDelegateManager *)manager;
 
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView manager:(ZLTableViewDelegateManager *)manager;
 @end
 
 @interface ZLTableViewDelegateManager : NSObject
