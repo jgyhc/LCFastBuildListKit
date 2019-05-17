@@ -20,33 +20,6 @@
     _tableView = tableView;
     tableView.delegate = self;
     tableView.dataSource = self;
-    if (self.delegate) {
-        if ([self.delegate respondsToSelector:@selector(registerCellNibs:)]) {
-            NSArray *array = [self.delegate registerCellNibs:self];
-            [array enumerateObjectsUsingBlock:^(NSString *  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-                [tableView registerNib:[UINib nibWithNibName:obj bundle:[NSBundle mainBundle]] forCellReuseIdentifier:obj];
-            }];
-        }
-        if ([self.delegate respondsToSelector:@selector(registerCellClassNames:)]) {
-            NSArray *array = [self.delegate registerCellClassNames:self];
-            [array enumerateObjectsUsingBlock:^(NSString *  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-                [tableView registerClass:NSClassFromString(obj) forCellReuseIdentifier:obj];
-            }];
-        }
-        if ([self.delegate respondsToSelector:@selector(registerHeaderFooterNibs:)]) {
-            NSArray *array = [self.delegate registerHeaderFooterNibs:self];
-            [array enumerateObjectsUsingBlock:^(NSString *  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-                [tableView registerNib:[UINib nibWithNibName:obj bundle:[NSBundle mainBundle]] forHeaderFooterViewReuseIdentifier:obj];
-            }];
-        }
-        if ([self.delegate respondsToSelector:@selector(registerHeaderFooterClassNames:)]) {
-            NSArray *array = [self.delegate registerHeaderFooterClassNames:self];
-            [array enumerateObjectsUsingBlock:^(NSString *  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-                [tableView registerClass:NSClassFromString(obj) forHeaderFooterViewReuseIdentifier:obj];
-            }];
-        }
-    }
-    [self reloadData];
 }
 
 - (void)reloadData {
@@ -74,8 +47,11 @@
     if ([cell respondsToSelector:@selector(model)] && rowModel.data) {
         [cell setValue:rowModel.data forKey:@"model"];
     }
-    if (self.delegate && [self.delegate respondsToSelector:@selector(cellInitializeWithModel:cell:manager:)]) {
-        [self.delegate cellInitializeWithModel:rowModel cell:cell manager:self];
+    if ([cell respondsToSelector:@selector(delegate) && rowModel.delegate]) {
+        [cell setValue:rowModel.delegate forKey:@"delegate"];
+    }
+    if (self.delegate && [self.delegate respondsToSelector:@selector(cellInitializeWithModel:cell:manager:indexPath:)]) {
+        [self.delegate cellInitializeWithModel:rowModel cell:cell manager:self indexPath:indexPath];
     }
     return cell;
 }
@@ -110,6 +86,9 @@
     if ([view respondsToSelector:@selector(model)] && sectionModel.headerData) {
         [view setValue:sectionModel.headerData forKey:@"model"];
     }
+    if ([view respondsToSelector:@selector(delegate) && sectionModel.headerDelegate]) {
+        [view setValue:sectionModel.headerDelegate forKey:@"delegate"];
+    }
     return view;
 }
 
@@ -126,10 +105,47 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     ZLTableViewSectionModel *sectionModel = self.datas[indexPath.section];
     ZLTableViewRowModel *rowModel = sectionModel.items[indexPath.row];
-    if (self.delegate && [self.delegate respondsToSelector:@selector(didSelectRowAtModel:manager:)]) {
-        [self.delegate didSelectRowAtModel:rowModel manager:self];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(didSelectRowAtModel:manager:indexPath:)]) {
+        [self.delegate didSelectRowAtModel:rowModel manager:self indexPath:indexPath];
     }
 }
+
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(tableView:willDisplayCell:forRowAtIndexPath:)]) {
+        [self.delegate tableView:tableView willDisplayCell:cell forRowAtIndexPath:indexPath];
+    }
+}
+
+- (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(tableView:willDisplayHeaderView:forSection:)]) {
+        [self.delegate tableView:tableView willDisplayHeaderView:view forSection:section];
+    }
+}
+
+- (void)tableView:(UITableView *)tableView willDisplayFooterView:(UIView *)view forSection:(NSInteger)section {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(tableView:willDisplayFooterView:forSection:)]) {
+        [self.delegate tableView:tableView willDisplayFooterView:view forSection:section];
+    }
+}
+
+- (void)tableView:(UITableView *)tableView didEndDisplayingCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath*)indexPath {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(tableView:didEndDisplayingCell:forRowAtIndexPath:)]) {
+        [self.delegate tableView:tableView didEndDisplayingCell:cell forRowAtIndexPath:indexPath];
+    }
+}
+
+- (void)tableView:(UITableView *)tableView didEndDisplayingHeaderView:(UIView *)view forSection:(NSInteger)section {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(tableView:didEndDisplayingHeaderView:forSection:)]) {
+        [self.delegate tableView:tableView didEndDisplayingHeaderView:view forSection:section];
+    }
+}
+
+- (void)tableView:(UITableView *)tableView didEndDisplayingFooterView:(UIView *)view forSection:(NSInteger)section {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(tableView:didEndDisplayingFooterView:forSection:)]) {
+        [self.delegate tableView:tableView didEndDisplayingFooterView:view forSection:section];
+    }
+}
+
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     if (self.delegate && [self.delegate respondsToSelector:@selector(scrollViewDidScroll:manager:)]) {

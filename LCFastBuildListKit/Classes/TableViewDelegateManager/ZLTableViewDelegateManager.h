@@ -17,20 +17,19 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSArray<ZLTableViewSectionModel *> *)dataSource:(ZLTableViewDelegateManager *)manager;
 
 @optional
-//为了方便identifier 都和cllasName  一致
-- (NSArray<NSString *> *)registerCellNibs:(ZLTableViewDelegateManager *)manager;
 
-- (NSArray<NSString *> *)registerCellClassNames:(ZLTableViewDelegateManager *)manager;
+- (void)didSelectRowAtModel:(ZLTableViewRowModel *)model manager:(ZLTableViewDelegateManager *)manager indexPath:(NSIndexPath *)indexPath;
 
-- (NSArray<NSString *> *)registerHeaderFooterNibs:(ZLTableViewDelegateManager *)manager;
-
-- (NSArray<NSString *> *)registerHeaderFooterClassNames:(ZLTableViewDelegateManager *)manager;
-
-- (void)didSelectRowAtModel:(ZLTableViewRowModel *)model manager:(ZLTableViewDelegateManager *)manager;
-
-- (void)cellInitializeWithModel:(ZLTableViewRowModel *)model cell:(UITableViewCell *)cell manager:(ZLTableViewDelegateManager *)manager;
+- (void)cellInitializeWithModel:(ZLTableViewRowModel *)model cell:(UITableViewCell *)cell manager:(ZLTableViewDelegateManager *)manager indexPath:(NSIndexPath *)indexPath;
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView manager:(ZLTableViewDelegateManager *)manager;
+
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath;
+- (void)tableView:(UITableView *)tableView willDisplayHeaderView:(UIView *)view forSection:(NSInteger)section;
+- (void)tableView:(UITableView *)tableView willDisplayFooterView:(UIView *)view forSection:(NSInteger)section;
+- (void)tableView:(UITableView *)tableView didEndDisplayingCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath*)indexPath;
+- (void)tableView:(UITableView *)tableView didEndDisplayingHeaderView:(UIView *)view forSection:(NSInteger)section;
+- (void)tableView:(UITableView *)tableView didEndDisplayingFooterView:(UIView *)view forSection:(NSInteger)section;
 @end
 
 @interface ZLTableViewDelegateManager : NSObject
@@ -38,7 +37,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak) id<ZLTableViewDelegateManagerDelegate> delegate;
 
 @property (nonatomic, strong) UITableView *tableView;
-
 
 /**
  调此方法会调一次数据源的代理方法

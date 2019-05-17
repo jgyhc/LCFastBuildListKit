@@ -27,6 +27,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) CGFloat footerHeight;
 
+@property (nonatomic, weak) id headerDelegate;
+
+
 
 @end
 
