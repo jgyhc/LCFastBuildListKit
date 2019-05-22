@@ -47,7 +47,7 @@
     if ([cell respondsToSelector:@selector(model)] && rowModel.data) {
         [cell setValue:rowModel.data forKey:@"model"];
     }
-    if ([cell respondsToSelector:@selector(delegate) && rowModel.delegate]) {
+    if ([cell respondsToSelector:@selector(delegate)] && rowModel.delegate) {
         [cell setValue:rowModel.delegate forKey:@"delegate"];
     }
     if (self.delegate && [self.delegate respondsToSelector:@selector(cellInitializeWithModel:cell:manager:indexPath:)]) {
@@ -86,7 +86,7 @@
     if ([view respondsToSelector:@selector(model)] && sectionModel.headerData) {
         [view setValue:sectionModel.headerData forKey:@"model"];
     }
-    if ([view respondsToSelector:@selector(delegate) && sectionModel.headerDelegate]) {
+    if ([view respondsToSelector:@selector(delegate)] && sectionModel.headerDelegate) {
         [view setValue:sectionModel.headerDelegate forKey:@"delegate"];
     }
     return view;
