@@ -20,6 +20,14 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) id data;
 
 @property (nonatomic, weak) id delegate;
+
+
+/** 是否可以删除 */
+@property (nonatomic, assign) BOOL isCanDelete;
+
+@property (nonatomic, copy) NSString * deleteString;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

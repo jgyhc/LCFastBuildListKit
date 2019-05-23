@@ -153,17 +153,15 @@
 }
 
 - (nullable NSString *)tableView:(UITableView *)tableView titleForDeleteConfirmationButtonForRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (self.delegate && [self.delegate respondsToSelector:@selector(tableView:titleForDeleteConfirmationButtonForRowAtIndexPath:)]) {
-        return [self.delegate tableView:tableView titleForDeleteConfirmationButtonForRowAtIndexPath:indexPath];
-    }
-    return @"删除";
+    ZLTableViewSectionModel *sectionModel = self.datas[indexPath.section];
+    ZLTableViewRowModel *rowModel = sectionModel.items[indexPath.row];
+    return rowModel.deleteString ? rowModel.deleteString : @"删除";
 }
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (self.delegate && [self.delegate respondsToSelector:@selector(tableView:canEditRowAtIndexPath:)]) {
-       return [self.delegate tableView:tableView canEditRowAtIndexPath:indexPath];
-    }
-    return NO;
+    ZLTableViewSectionModel *sectionModel = self.datas[indexPath.section];
+    ZLTableViewRowModel *rowModel = sectionModel.items[indexPath.row];
+    return rowModel.isCanDelete;
 }
 
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
