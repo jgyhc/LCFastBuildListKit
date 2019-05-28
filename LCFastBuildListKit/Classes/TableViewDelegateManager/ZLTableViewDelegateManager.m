@@ -61,7 +61,7 @@
     ZLTableViewRowModel *rowModel = sectionModel.items[indexPath.row];
     if (rowModel.cellHeight == -1) {
         __block ZLTableViewRowModel *blockRowModel = rowModel;
-        return [tableView fd_heightForCellWithIdentifier:blockRowModel.identifier cacheByKey:indexPath configuration:^(id cell) {
+        return [tableView fd_heightForCellWithIdentifier:blockRowModel.identifier cacheByKey:rowModel configuration:^(id cell) {
             if ([cell respondsToSelector:@selector(model)] && blockRowModel.data) {
                 [cell setValue:blockRowModel.data forKey:@"model"];
             }
