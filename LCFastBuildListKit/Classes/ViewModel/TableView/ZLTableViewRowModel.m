@@ -10,4 +10,14 @@
 
 @implementation ZLTableViewRowModel
 
+
+- (id)copyWithZone:(nullable NSZone *)zone {
+    ZLTableViewRowModel *model = [[[self class] allocWithZone:zone] init];
+    model.identifier = _identifier;
+    model.data = _data;
+    model.cellHeight = _cellHeight;
+    return model;
+}
+
+
 @end
