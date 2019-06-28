@@ -29,6 +29,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak) id headerDelegate;
 
+@property (nonatomic, strong) UIColor *headerBackgroundColor;
+
+@property (nonatomic, strong) UIColor *footerBackgroundColor;
 
 
 @end

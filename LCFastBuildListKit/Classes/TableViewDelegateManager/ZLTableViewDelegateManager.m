@@ -83,6 +83,9 @@
 - (nullable UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     ZLTableViewSectionModel *sectionModel = self.datas[section];
     UITableViewHeaderFooterView *view = [tableView dequeueReusableHeaderFooterViewWithIdentifier:sectionModel.headerIdentifier];
+    if (sectionModel.headerBackgroundColor) {
+        [view.contentView setBackgroundColor:sectionModel.headerBackgroundColor];
+    }
     if ([view respondsToSelector:@selector(model)] && sectionModel.headerData) {
         [view setValue:sectionModel.headerData forKey:@"model"];
     }
@@ -95,6 +98,9 @@
 - (nullable UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
     ZLTableViewSectionModel *sectionModel = self.datas[section];
     UITableViewHeaderFooterView *view = [tableView dequeueReusableHeaderFooterViewWithIdentifier:sectionModel.footerIdentifier];
+    if (sectionModel.footerBackgroundColor) {
+        [view.contentView setBackgroundColor:sectionModel.footerBackgroundColor];
+    }
     if ([view respondsToSelector:@selector(model)] && sectionModel.footerData) {
         [view setValue:sectionModel.footerData forKey:@"model"];
     }
