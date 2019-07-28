@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LCFastBuildListKit'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = '对tableView和collectionView进行简单封装   方便快速搭建较复杂的列表页面.'
 
 # This description is used to generate tags and improve search results.
@@ -41,3 +41,4 @@ TODO: Add long description of the pod here.
   s.dependency 'UITableView+FDTemplateLayoutCell'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
+

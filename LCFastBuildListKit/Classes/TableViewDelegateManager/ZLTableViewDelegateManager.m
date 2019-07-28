@@ -20,6 +20,7 @@
     _tableView = tableView;
     tableView.delegate = self;
     tableView.dataSource = self;
+    [tableView registerClass:[UITableViewHeaderFooterView class] forHeaderFooterViewReuseIdentifier:@"UITableViewHeaderFooterView"];
 }
 
 - (void)reloadData {
@@ -82,11 +83,8 @@
 
 - (nullable UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
     ZLTableViewSectionModel *sectionModel = self.datas[section];
-    UITableViewHeaderFooterView *view = [tableView dequeueReusableHeaderFooterViewWithIdentifier:sectionModel.headerIdentifier];
+    UITableViewHeaderFooterView *view = [tableView dequeueReusableHeaderFooterViewWithIdentifier:sectionModel.headerIdentifier?sectionModel.headerIdentifier:@"UITableViewHeaderFooterView"];
     if (sectionModel.headerBackgroundColor) {
-        if (!view) {
-            view = [UIView new];
-        }
         [view.contentView setBackgroundColor:sectionModel.headerBackgroundColor];
     }
     if ([view respondsToSelector:@selector(model)] && sectionModel.headerData) {
@@ -100,7 +98,7 @@
 
 - (nullable UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
     ZLTableViewSectionModel *sectionModel = self.datas[section];
-    UITableViewHeaderFooterView *view = [tableView dequeueReusableHeaderFooterViewWithIdentifier:sectionModel.footerIdentifier];
+    UITableViewHeaderFooterView *view = [tableView dequeueReusableHeaderFooterViewWithIdentifier:sectionModel.footerIdentifier?sectionModel.footerIdentifier:@"UITableViewHeaderFooterView"];
     if (sectionModel.footerBackgroundColor) {
         if (!view) {
             view = [UIView new];
