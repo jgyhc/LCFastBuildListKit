@@ -19,18 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSArray<ZLCollectionViewSectionModel *> *)dataSource:(ZLCollectionViewDelegateManager *)manager;
 
 @optional
-//为了方便identifier 都和cllasName  一致
-- (NSArray<NSString *> *)registerCellNibs:(ZLCollectionViewDelegateManager *)manager;
 
-- (NSArray<NSString *>  *)registerCellClassNames:(ZLCollectionViewDelegateManager *)manager;
-
-- (NSArray<NSString *>  *)registerHeaderNibs:(ZLCollectionViewDelegateManager *)manager;
-
-- (NSArray<NSString *>  *)registerHeaderClassNames:(ZLCollectionViewDelegateManager *)manager;
-
-- (NSArray<NSString *>  *)registerFooterrNibs:(ZLCollectionViewDelegateManager *)manager;
-
-- (NSArray<NSString *>  *)registerFooterClassNames:(ZLCollectionViewDelegateManager *)manager;
+- (void)cellInitializeWithModel:(ZLCollectionViewRowModel *)model cell:(UICollectionViewCell *)cell manager:(ZLCollectionViewDelegateManager *)manager indexPath:(NSIndexPath *)indexPath;
 
 - (void)didSelectRowAtModel:(ZLCollectionViewRowModel *)model manager:(ZLCollectionViewDelegateManager *)manager;
 
