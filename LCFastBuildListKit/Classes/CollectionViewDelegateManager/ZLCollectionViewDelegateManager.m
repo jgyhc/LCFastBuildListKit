@@ -118,8 +118,8 @@
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     ZLCollectionViewSectionModel *sectionModel = self.datas[indexPath.section];
     ZLCollectionViewRowModel *rowModel = sectionModel.items[indexPath.row];
-    if (self.delegate && [self.delegate respondsToSelector:@selector(didSelectRowAtModel:manager:)]) {
-        [self.delegate didSelectRowAtModel:rowModel manager:self];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(didSelectRowAtModel:manager:indexPath:)]) {
+        [self.delegate didSelectRowAtModel:rowModel manager:self indexPath:indexPath];
     }
 }
 
