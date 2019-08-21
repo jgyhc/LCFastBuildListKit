@@ -129,4 +129,67 @@
     }
 }
 
+//- (BOOL)collectionView:(UICollectionView *)collectionView shouldHighlightItemAtIndexPath:(NSIndexPath *)indexPath {
+//    if (self.delegate && [self.delegate respondsToSelector:@selector(collectionView:shouldHighlightItemAtIndexPath:)]) {
+//        return [self.delegate collectionView:collectionView shouldHighlightItemAtIndexPath:indexPath];
+//    }
+//}
+
+- (void)collectionView:(UICollectionView *)collectionView didHighlightItemAtIndexPath:(NSIndexPath *)indexPath {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(collectionView:didHighlightItemAtIndexPath:)]) {
+        [self.delegate collectionView:collectionView didHighlightItemAtIndexPath:indexPath];
+    }
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didUnhighlightItemAtIndexPath:(NSIndexPath *)indexPath {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(collectionView:didUnhighlightItemAtIndexPath:)]) {
+        [self.delegate collectionView:collectionView didUnhighlightItemAtIndexPath:indexPath];
+    }
+}
+
+//- (BOOL)collectionView:(UICollectionView *)collectionView shouldSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+//    if (self.delegate && [self.delegate respondsToSelector:@selector(collectionView:shouldSelectItemAtIndexPath:)]) {
+//        return [self.delegate collectionView:collectionView shouldSelectItemAtIndexPath:indexPath];
+//    }
+//}
+//
+//- (BOOL)collectionView:(UICollectionView *)collectionView shouldDeselectItemAtIndexPath:(NSIndexPath *)indexPath {
+//    if (self.delegate && [self.delegate respondsToSelector:@selector(collectionView:shouldDeselectItemAtIndexPath:)]) {
+//        [self.delegate collectionView:collectionView shouldDeselectItemAtIndexPath:indexPath];
+//    }
+//}
+
+- (void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(collectionView:didDeselectItemAtIndexPath:)]) {
+        [self.delegate collectionView:collectionView didDeselectItemAtIndexPath:indexPath];
+    }
+}
+
+- (void)collectionView:(UICollectionView *)collectionView willDisplayCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath  {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(collectionView:willDisplayCell:forItemAtIndexPath:)]) {
+        [self.delegate collectionView:collectionView willDisplayCell:cell forItemAtIndexPath:indexPath];
+    }
+}
+
+- (void)collectionView:(UICollectionView *)collectionView willDisplaySupplementaryView:(UICollectionReusableView *)view forElementKind:(NSString *)elementKind atIndexPath:(NSIndexPath *)indexPath {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(collectionView:willDisplaySupplementaryView:forElementKind:atIndexPath:)]) {
+        [self.delegate collectionView:collectionView willDisplaySupplementaryView:view forElementKind:elementKind atIndexPath:indexPath];
+    }
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didEndDisplayingCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(collectionView:didEndDisplayingCell:forItemAtIndexPath:)]) {
+        [self.delegate collectionView:collectionView didEndDisplayingCell:cell forItemAtIndexPath:indexPath];
+    }
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didEndDisplayingSupplementaryView:(UICollectionReusableView *)view forElementOfKind:(NSString *)elementKind atIndexPath:(NSIndexPath *)indexPath {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(collectionView:didEndDisplayingSupplementaryView:forElementOfKind:)]) {
+        [self.delegate collectionView:collectionView didEndDisplayingSupplementaryView:view forElementOfKind:elementKind atIndexPath:indexPath];
+    }
+    
+}
+
+
+
 @end
