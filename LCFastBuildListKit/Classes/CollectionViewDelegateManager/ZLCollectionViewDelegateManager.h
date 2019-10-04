@@ -26,6 +26,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)didSelectRowAtModel:(ZLCollectionViewRowModel *)model manager:(ZLCollectionViewDelegateManager *)manager indexPath:(NSIndexPath *)indexPath;
 
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView;
+
+- (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView;
+
 
 //- (BOOL)collectionView:(UICollectionView *)collectionView shouldHighlightItemAtIndexPath:(NSIndexPath *)indexPath;
 - (void)collectionView:(UICollectionView *)collectionView didHighlightItemAtIndexPath:(NSIndexPath *)indexPath;

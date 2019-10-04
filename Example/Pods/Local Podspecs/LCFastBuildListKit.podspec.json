@@ -1,7 +1,7 @@
 {
   "name": "LCFastBuildListKit",
-  "version": "0.1.0",
-  "summary": "A short description of LCFastBuildListKit.",
+  "version": "0.2.5",
+  "summary": "对tableView和collectionView进行简单封装   方便快速搭建较复杂的列表页面.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/jgyhc/LCFastBuildListKit",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/jgyhc/LCFastBuildListKit.git",
-    "tag": "0.1.0"
+    "tag": "0.2.5"
   },
   "platforms": {
     "ios": "8.0"
