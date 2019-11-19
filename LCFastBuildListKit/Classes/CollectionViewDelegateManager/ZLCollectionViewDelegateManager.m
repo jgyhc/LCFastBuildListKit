@@ -123,11 +123,7 @@
     }
 }
 
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    if (self.delegate && [self.delegate respondsToSelector:@selector(scrollViewDidScroll:manager:)]) {
-        [self.delegate scrollViewDidScroll:scrollView manager:self];
-    }
-}
+
 
 //- (BOOL)collectionView:(UICollectionView *)collectionView shouldHighlightItemAtIndexPath:(NSIndexPath *)indexPath {
 //    if (self.delegate && [self.delegate respondsToSelector:@selector(collectionView:shouldHighlightItemAtIndexPath:)]) {
@@ -187,26 +183,15 @@
     if (self.delegate && [self.delegate respondsToSelector:@selector(collectionView:didEndDisplayingSupplementaryView:forElementOfKind:)]) {
         [self.delegate collectionView:collectionView didEndDisplayingSupplementaryView:view forElementOfKind:elementKind atIndexPath:indexPath];
     }
-    
 }
-
-- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
-    if (self.delegate && [self.delegate respondsToSelector:@selector(scrollViewDidEndDecelerating:)]) {
-        [self.delegate scrollViewDidEndDecelerating:scrollView];
-    }
-}
-
-- (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView {
-    if (self.delegate && [self.delegate respondsToSelector:@selector(scrollViewDidEndScrollingAnimation:)]) {
-        [self.delegate scrollViewDidEndScrollingAnimation:scrollView];
-    }
-}
-
 
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     if (self.delegate && [self.delegate respondsToSelector:@selector(scrollViewDidScroll:)]) {
         [self.delegate scrollViewDidScroll:scrollView];
+    }
+    if (self.delegate && [self.delegate respondsToSelector:@selector(scrollViewDidScroll:manager:)]) {
+       [self.delegate scrollViewDidScroll:scrollView manager:self];
     }
 }
 - (void)scrollViewDidZoom:(UIScrollView *)scrollView {
@@ -250,12 +235,6 @@
        }
 }
 
-- (nullable UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
-    if (self.delegate && [self.delegate respondsToSelector:@selector(viewForZoomingInScrollView:)]) {
-           [self.delegate viewForZoomingInScrollView:scrollView];
-       }
-}
-
 - (void)scrollViewWillBeginZooming:(UIScrollView *)scrollView withView:(nullable UIView *)view {
     if (self.delegate && [self.delegate respondsToSelector:@selector(scrollViewWillBeginZooming:withView:)]) {
            [self.delegate scrollViewWillBeginZooming:scrollView withView:view];
@@ -268,11 +247,6 @@
        }
 }
 
-- (BOOL)scrollViewShouldScrollToTop:(UIScrollView *)scrollView {
-    if (self.delegate && [self.delegate respondsToSelector:@selector(scrollViewShouldScrollToTop:)]) {
-           [self.delegate scrollViewShouldScrollToTop:scrollView];
-       }
-}
 
 - (void)scrollViewDidScrollToTop:(UIScrollView *)scrollView {
     if (self.delegate && [self.delegate respondsToSelector:@selector(scrollViewDidScrollToTop:)]) {

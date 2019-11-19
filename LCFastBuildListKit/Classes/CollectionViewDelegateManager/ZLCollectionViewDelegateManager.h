@@ -57,11 +57,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView;
 
-- (nullable UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView;
 - (void)scrollViewWillBeginZooming:(UIScrollView *)scrollView withView:(nullable UIView *)view;
 - (void)scrollViewDidEndZooming:(UIScrollView *)scrollView withView:(nullable UIView *)view atScale:(CGFloat)scale;
 
-- (BOOL)scrollViewShouldScrollToTop:(UIScrollView *)scrollView;
 - (void)scrollViewDidScrollToTop:(UIScrollView *)scrollView;
 - (void)scrollViewDidChangeAdjustedContentInset:(UIScrollView *)scrollView;
 
