@@ -7,69 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0379FAD524DC04EF29AE4DCED6957162 /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6786BE30E2AC8294CD901F6BC6EDE0 /* UITableView+FDTemplateLayoutCell-dummy.m */; };
-		08458987336303E127A38666EEE49F00 /* UITableView+FDKeyedHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B10D9CC69C42CA8B49CA2798E965C03B /* UITableView+FDKeyedHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14F505E2E40EC2598E8DAD57F32E9761 /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EC52895B2B5293B799B78B8830997A /* UITableView+FDKeyedHeightCache.m */; };
-		15378C049D9B0CD9928DE2B76D2E97F7 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0190B45C9B307A85BCD7AE86853EB203 /* UITableView+FDTemplateLayoutCell.m */; };
-		1E0A940088E998347E3E0810B1F8430A /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEB9247A9D2B97975AE961CA415B2FD /* UITableView+FDIndexPathHeightCache.m */; };
-		20DC389A9CBA7B55854A7FE7174E852E /* ZLCollectionViewDelegateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B53E345F4E1BBB33CF5AA71D9E44F33A /* ZLCollectionViewDelegateManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		373DCF23F1C61BD1DB3EF911F9F7C07C /* LCFastBuildListKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B80743FA819D767F639AD6D02A161B3B /* LCFastBuildListKit-dummy.m */; };
-		391078E3560A78085D4AF9FEE12235F1 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CDFBA24E186AD68851A1E49FA67C02 /* UITableView+FDTemplateLayoutCellDebug.m */; };
-		42F632BAAB6C909F2DA4BCA6B4109586 /* UITableView+FDTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4B890794684278B25EC69BA26C9175 /* UITableView+FDTemplateLayoutCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		458BBF050749F094EB1EA91259367999 /* ZLTableViewSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B969191F686CDEAC8294DB576463E4A4 /* ZLTableViewSectionModel.m */; };
-		49EF3820F48F5D8FAB1C7D680F1A9022 /* ZLCollectionViewRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 937263BD8E9827BFB9D1ED634B29073B /* ZLCollectionViewRowModel.m */; };
-		5317505CEF898DC0E36F3BD0A43F13C2 /* ZLTableViewRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EA3811C8A1C3D01609E9D18F31A2C2 /* ZLTableViewRowModel.m */; };
-		6342DE4E7F50BABFDBAA7EA9BB2AC09C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D158B3026CA4382E1FA6E701287BC2 /* Foundation.framework */; };
-		657F81E98C27B19998714EF80867AB9B /* ZLCollectionViewDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A07E3328DA826FCBF02B452C9CB42AAC /* ZLCollectionViewDelegateManager.m */; };
-		6E473CBF5C35E679D5AC85FF107A9893 /* UITableView+FDTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 2565E597FBF7C19AD14A52CA36240CED /* UITableView+FDTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D1E4BF021B46EB44B47AB887D45A121 /* ZLTableViewDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A3F0FAAA127726F17D0920C31EA659 /* ZLTableViewDelegateManager.m */; };
-		897562794C3B3AF4E04606B0DB068D06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D158B3026CA4382E1FA6E701287BC2 /* Foundation.framework */; };
-		924D412F35506C858DE16625452D80A8 /* ZLCollectionViewSectionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B1BF26B197D784B5C34003353F524F /* ZLCollectionViewSectionModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9507688D2FE2A8C98C543247F7BACDE5 /* Pods-LCFastBuildListKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4526E230D17F69438D9D66DD2D50EA1F /* Pods-LCFastBuildListKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C73A983F22EFCDC882A616B8BF58D4A /* UITableView_FDTemplateLayoutCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0061F7D314148125A614B8152982ED3 /* UITableView_FDTemplateLayoutCell.framework */; };
-		9D4AC4379FBA425D64BCDC746AE315CA /* ZLCollectionViewRowModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5908F16C2E6F42E4F9C916D8731E95 /* ZLCollectionViewRowModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC7756F38CB99C6AB5200FB398DE4B33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D158B3026CA4382E1FA6E701287BC2 /* Foundation.framework */; };
-		B0AEF7F9011F374A6A9C1A094D6A0100 /* UITableView+FDTemplateLayoutCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73DF166C242EDE51422F2DD7CE5059BB /* UITableView+FDTemplateLayoutCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B373BDF8FC00B4622A9780ACF6614B72 /* Pods-LCFastBuildListKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1FE872F9EAD17E454B247935B31F17 /* Pods-LCFastBuildListKit_Tests-dummy.m */; };
-		D35F49D681C9830737FD05373288B3C3 /* LCFastBuildListKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F202E18E746320E674EFAA5112D6A04 /* LCFastBuildListKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4763333D4DA05A774B4FCF3A133CB3D /* Pods-LCFastBuildListKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CE4BFE34C5728B9DAFF7F805ECB748 /* Pods-LCFastBuildListKit_Example-dummy.m */; };
-		DA43CEC7B3DE01633017CAFF0F487CC7 /* ZLTableViewDelegateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC4B52BF20C9F67A18581A90DF1A8B /* ZLTableViewDelegateManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDF466CFE393FECB7494C3423DEB9ABC /* ZLCollectionViewSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A468C84E983F53B8E16A0146922C57A2 /* ZLCollectionViewSectionModel.m */; };
-		E14E4A7ADD7E15FBB73DECAC83A7346C /* ZLTableViewRowModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 768981031E495804F19F9B82CB3C0E4D /* ZLTableViewRowModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E37AEF7A44D9FDEE6AE8C8F6F05B9344 /* ZLTableViewSectionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D3DADC188322F6EEA9553FCC52176743 /* ZLTableViewSectionModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E62AA510529C2AF89C10B5E556385C84 /* Pods-LCFastBuildListKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AABD7159B502EBEAFC8F9C22EB8250 /* Pods-LCFastBuildListKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFD690D9427CCEADACE8899BC171B0B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D158B3026CA4382E1FA6E701287BC2 /* Foundation.framework */; };
-		F7E65062EF35792F4035FCC49CB97A8D /* UITableView+FDIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 570DEDB7B79183958DC93889921C42B0 /* UITableView+FDIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01F267A598F1C0E990334DE2269BAB19 /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EC52895B2B5293B799B78B8830997A /* UITableView+FDKeyedHeightCache.m */; };
+		039BCE7444527C531501BCCD08527B90 /* UITableView+FDTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4B890794684278B25EC69BA26C9175 /* UITableView+FDTemplateLayoutCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A2F0F26131139A0BD36C91CDC5AA4A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D158B3026CA4382E1FA6E701287BC2 /* Foundation.framework */; };
+		20067C8C6F6FDC76493279663462C42D /* UITableView_FDTemplateLayoutCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0061F7D314148125A614B8152982ED3 /* UITableView_FDTemplateLayoutCell.framework */; };
+		28FD1879F91FDDAC1E55DD7D44819332 /* ZLTableViewSectionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D3DADC188322F6EEA9553FCC52176743 /* ZLTableViewSectionModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32AF85599B350E6FB9493D88FB7E9EC3 /* LCFastBuildListKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F202E18E746320E674EFAA5112D6A04 /* LCFastBuildListKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3578EADC748AA527100C2398C2F4F3C2 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CDFBA24E186AD68851A1E49FA67C02 /* UITableView+FDTemplateLayoutCellDebug.m */; };
+		39472C571D0F9DDAEF35CA6FCF004DB6 /* Pods-LCFastBuildListKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1FE872F9EAD17E454B247935B31F17 /* Pods-LCFastBuildListKit_Tests-dummy.m */; };
+		47436E7C3A29B22F1F55C42AF592E0FF /* ZLTableViewSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B969191F686CDEAC8294DB576463E4A4 /* ZLTableViewSectionModel.m */; };
+		636E01849F5CFBB5735DB12A5FAE4DC9 /* UITableView+FDKeyedHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B10D9CC69C42CA8B49CA2798E965C03B /* UITableView+FDKeyedHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AD78692A0FC31C5BA29F0062A962CE3 /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6786BE30E2AC8294CD901F6BC6EDE0 /* UITableView+FDTemplateLayoutCell-dummy.m */; };
+		77B3E8B79F85F8B36FA4022C646F81F9 /* Pods-LCFastBuildListKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AABD7159B502EBEAFC8F9C22EB8250 /* Pods-LCFastBuildListKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B44CADCAF69776BA8D922C40AF77916 /* UITableView+FDIndexPathHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 570DEDB7B79183958DC93889921C42B0 /* UITableView+FDIndexPathHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E3F8203486990328FCC0F7A38BF17BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D158B3026CA4382E1FA6E701287BC2 /* Foundation.framework */; };
+		8053D542619A83F24E8D455F3BE03977 /* ZLCollectionViewSectionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B1BF26B197D784B5C34003353F524F /* ZLCollectionViewSectionModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F90A2BC2F6508AA9C8953C717A1210B /* Pods-LCFastBuildListKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CE4BFE34C5728B9DAFF7F805ECB748 /* Pods-LCFastBuildListKit_Example-dummy.m */; };
+		93B072A511E30B388A0F058C194FB98C /* LCFastBuildListKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B80743FA819D767F639AD6D02A161B3B /* LCFastBuildListKit-dummy.m */; };
+		A83B5AFAEE10ADACD3EA1D57035EA541 /* ZLCollectionViewDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A07E3328DA826FCBF02B452C9CB42AAC /* ZLCollectionViewDelegateManager.m */; };
+		AEE9EACE5C0E87E18EB45AECE92845BA /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEB9247A9D2B97975AE961CA415B2FD /* UITableView+FDIndexPathHeightCache.m */; };
+		B0A56782E90085014E15F236AF4DFB01 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0190B45C9B307A85BCD7AE86853EB203 /* UITableView+FDTemplateLayoutCell.m */; };
+		B29329BB9038DEB47213290CDE6BC6BE /* ZLCollectionViewRowModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5908F16C2E6F42E4F9C916D8731E95 /* ZLCollectionViewRowModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4B584F7CA50DE9FE1F9ABD0EE97ABE2 /* ZLCollectionViewSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A468C84E983F53B8E16A0146922C57A2 /* ZLCollectionViewSectionModel.m */; };
+		CCBC37F38B5A3BCF44CB140405FFB6D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D158B3026CA4382E1FA6E701287BC2 /* Foundation.framework */; };
+		CDB625C31FA6C7935DD2E59FD4BB7FDB /* UITableView+FDTemplateLayoutCellDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 2565E597FBF7C19AD14A52CA36240CED /* UITableView+FDTemplateLayoutCellDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0239F83E81F23F1FB07938A66FDABE5 /* ZLCollectionViewDelegateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B53E345F4E1BBB33CF5AA71D9E44F33A /* ZLCollectionViewDelegateManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D24EA56B985C3E087E74079C0027F925 /* ZLTableViewRowModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 768981031E495804F19F9B82CB3C0E4D /* ZLTableViewRowModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC2E9FFA70E51184970279CF920280AE /* Pods-LCFastBuildListKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4526E230D17F69438D9D66DD2D50EA1F /* Pods-LCFastBuildListKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3127EC35F1E05858CEA91B5BDD70585 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D158B3026CA4382E1FA6E701287BC2 /* Foundation.framework */; };
+		F279F778DBB9691A9951D1CB209100A4 /* UITableView+FDTemplateLayoutCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73DF166C242EDE51422F2DD7CE5059BB /* UITableView+FDTemplateLayoutCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F784308A48D178D65ADDA33201122AC4 /* ZLTableViewDelegateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC4B52BF20C9F67A18581A90DF1A8B /* ZLTableViewDelegateManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F97BDF63D01C3F09507E635324D167CD /* ZLTableViewDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A3F0FAAA127726F17D0920C31EA659 /* ZLTableViewDelegateManager.m */; };
+		FB2C35D7FF12FCF48A29A8465D068D6D /* ZLCollectionViewRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 937263BD8E9827BFB9D1ED634B29073B /* ZLCollectionViewRowModel.m */; };
+		FF5D2B69D1C4D992254A4A1BE8ED2149 /* ZLTableViewRowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EA3811C8A1C3D01609E9D18F31A2C2 /* ZLTableViewRowModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		968935FC5074C6FEC5B436D546F1C62F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 102C4A324CC9EF4E2B33B7A29B72DBE8;
-			remoteInfo = LCFastBuildListKit;
-		};
-		D19C0DC9040E9B49214060F75BA1931A /* PBXContainerItemProxy */ = {
+		3A91B7546589D4BFBA37B0904C8533E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2006263064A94C0063192AE0D2C3F409;
 			remoteInfo = "UITableView+FDTemplateLayoutCell";
 		};
-		DAE4FF90E59E020E5FC2DCA2EAE80C9A /* PBXContainerItemProxy */ = {
+		48794238903B4C010AA1A7709A2554B8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2006263064A94C0063192AE0D2C3F409;
 			remoteInfo = "UITableView+FDTemplateLayoutCell";
 		};
-		FB70745E6013E7DEADA4D11BD155E9BC /* PBXContainerItemProxy */ = {
+		8A908AFD73AF6821AC1DD3063DF3C806 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 792A4D3615BEE854469BBD92F3BD2DBC;
 			remoteInfo = "Pods-LCFastBuildListKit_Example";
+		};
+		EFA50E75BF011F1E04B6430F51824092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 102C4A324CC9EF4E2B33B7A29B72DBE8;
+			remoteInfo = LCFastBuildListKit;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -136,36 +136,36 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		34B40F5D5568B7F48CB24B0F5F241FBF /* Frameworks */ = {
+		29A0AC5C2B62BEBFEB6D4557C6BEBD5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				897562794C3B3AF4E04606B0DB068D06 /* Foundation.framework in Frameworks */,
+				7E3F8203486990328FCC0F7A38BF17BD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		946E5FF2C4184097329DCDA2ED0DF171 /* Frameworks */ = {
+		417AF49FCB021914B9C4EA7DA39CCB0A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFD690D9427CCEADACE8899BC171B0B3 /* Foundation.framework in Frameworks */,
-				9C73A983F22EFCDC882A616B8BF58D4A /* UITableView_FDTemplateLayoutCell.framework in Frameworks */,
+				E3127EC35F1E05858CEA91B5BDD70585 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C027AA5C1ADF8B5B267BA3330653FC16 /* Frameworks */ = {
+		8ED69E2A135799432FE0CA0A0E69BE82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6342DE4E7F50BABFDBAA7EA9BB2AC09C /* Foundation.framework in Frameworks */,
+				1A2F0F26131139A0BD36C91CDC5AA4A8 /* Foundation.framework in Frameworks */,
+				20067C8C6F6FDC76493279663462C42D /* UITableView_FDTemplateLayoutCell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9952C6A05542046521D451189CA0A0B /* Frameworks */ = {
+		FC39EFE9D67983E1E4126F632C44855B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC7756F38CB99C6AB5200FB398DE4B33 /* Foundation.framework in Frameworks */,
+				CCBC37F38B5A3BCF44CB140405FFB6D6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,45 +395,45 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		11FFABC2829EA3B6464951D5B3F4676D /* Headers */ = {
+		AC064CE48B8A420E45E3C30CC328CCF1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7E65062EF35792F4035FCC49CB97A8D /* UITableView+FDIndexPathHeightCache.h in Headers */,
-				08458987336303E127A38666EEE49F00 /* UITableView+FDKeyedHeightCache.h in Headers */,
-				B0AEF7F9011F374A6A9C1A094D6A0100 /* UITableView+FDTemplateLayoutCell-umbrella.h in Headers */,
-				42F632BAAB6C909F2DA4BCA6B4109586 /* UITableView+FDTemplateLayoutCell.h in Headers */,
-				6E473CBF5C35E679D5AC85FF107A9893 /* UITableView+FDTemplateLayoutCellDebug.h in Headers */,
+				DC2E9FFA70E51184970279CF920280AE /* Pods-LCFastBuildListKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		12CDFF1D9D41FBA2D78108398FDA7FFF /* Headers */ = {
+		C65983770A6494DEC6EE98627241C349 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9507688D2FE2A8C98C543247F7BACDE5 /* Pods-LCFastBuildListKit_Example-umbrella.h in Headers */,
+				32AF85599B350E6FB9493D88FB7E9EC3 /* LCFastBuildListKit-umbrella.h in Headers */,
+				D0239F83E81F23F1FB07938A66FDABE5 /* ZLCollectionViewDelegateManager.h in Headers */,
+				B29329BB9038DEB47213290CDE6BC6BE /* ZLCollectionViewRowModel.h in Headers */,
+				8053D542619A83F24E8D455F3BE03977 /* ZLCollectionViewSectionModel.h in Headers */,
+				F784308A48D178D65ADDA33201122AC4 /* ZLTableViewDelegateManager.h in Headers */,
+				D24EA56B985C3E087E74079C0027F925 /* ZLTableViewRowModel.h in Headers */,
+				28FD1879F91FDDAC1E55DD7D44819332 /* ZLTableViewSectionModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0BE71A9228CB83BF67087F169D4A2BA /* Headers */ = {
+		C6FAD92470E136F977B11BED7FFC4E57 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E62AA510529C2AF89C10B5E556385C84 /* Pods-LCFastBuildListKit_Tests-umbrella.h in Headers */,
+				7B44CADCAF69776BA8D922C40AF77916 /* UITableView+FDIndexPathHeightCache.h in Headers */,
+				636E01849F5CFBB5735DB12A5FAE4DC9 /* UITableView+FDKeyedHeightCache.h in Headers */,
+				F279F778DBB9691A9951D1CB209100A4 /* UITableView+FDTemplateLayoutCell-umbrella.h in Headers */,
+				039BCE7444527C531501BCCD08527B90 /* UITableView+FDTemplateLayoutCell.h in Headers */,
+				CDB625C31FA6C7935DD2E59FD4BB7FDB /* UITableView+FDTemplateLayoutCellDebug.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E30D1792DDFEF247B84A952A8B46C53F /* Headers */ = {
+		E9DC00183994372B6962DC6FCFB7BB92 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35F49D681C9830737FD05373288B3C3 /* LCFastBuildListKit-umbrella.h in Headers */,
-				20DC389A9CBA7B55854A7FE7174E852E /* ZLCollectionViewDelegateManager.h in Headers */,
-				9D4AC4379FBA425D64BCDC746AE315CA /* ZLCollectionViewRowModel.h in Headers */,
-				924D412F35506C858DE16625452D80A8 /* ZLCollectionViewSectionModel.h in Headers */,
-				DA43CEC7B3DE01633017CAFF0F487CC7 /* ZLTableViewDelegateManager.h in Headers */,
-				E14E4A7ADD7E15FBB73DECAC83A7346C /* ZLTableViewRowModel.h in Headers */,
-				E37AEF7A44D9FDEE6AE8C8F6F05B9344 /* ZLTableViewSectionModel.h in Headers */,
+				77B3E8B79F85F8B36FA4022C646F81F9 /* Pods-LCFastBuildListKit_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,17 +442,17 @@
 /* Begin PBXNativeTarget section */
 		102C4A324CC9EF4E2B33B7A29B72DBE8 /* LCFastBuildListKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E26976087E9956C65F2F405B14318A82 /* Build configuration list for PBXNativeTarget "LCFastBuildListKit" */;
+			buildConfigurationList = D37B1DC971E485B2CA1C3A2A0A1AD8DF /* Build configuration list for PBXNativeTarget "LCFastBuildListKit" */;
 			buildPhases = (
-				E30D1792DDFEF247B84A952A8B46C53F /* Headers */,
-				3CD87D1D5EC00B1276582BB0A94EED86 /* Sources */,
-				946E5FF2C4184097329DCDA2ED0DF171 /* Frameworks */,
-				7BE7E5941B6062FBCA3B8FD5BAB3D1EB /* Resources */,
+				C65983770A6494DEC6EE98627241C349 /* Headers */,
+				D34CEB5B620F790F045A65B54B671E77 /* Sources */,
+				8ED69E2A135799432FE0CA0A0E69BE82 /* Frameworks */,
+				27DCB178658F1203228B3FB809CCB459 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E23C8DFA6811F64D91F048D1FFCDDDB8 /* PBXTargetDependency */,
+				7EADEFE2017AAB6AF104255D2D87D857 /* PBXTargetDependency */,
 			);
 			name = LCFastBuildListKit;
 			productName = LCFastBuildListKit;
@@ -461,12 +461,12 @@
 		};
 		2006263064A94C0063192AE0D2C3F409 /* UITableView+FDTemplateLayoutCell */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F59A41A827AAE969743AFD88D1B5437 /* Build configuration list for PBXNativeTarget "UITableView+FDTemplateLayoutCell" */;
+			buildConfigurationList = FE22020A90843342D2862BC91E33FDD6 /* Build configuration list for PBXNativeTarget "UITableView+FDTemplateLayoutCell" */;
 			buildPhases = (
-				11FFABC2829EA3B6464951D5B3F4676D /* Headers */,
-				47CEA411B507319B310431D8592FEDF1 /* Sources */,
-				E9952C6A05542046521D451189CA0A0B /* Frameworks */,
-				AB6669D75AE898638E30418849C7A509 /* Resources */,
+				C6FAD92470E136F977B11BED7FFC4E57 /* Headers */,
+				447536A39A8208BA9B18E4EFE4A3004B /* Sources */,
+				FC39EFE9D67983E1E4126F632C44855B /* Frameworks */,
+				5BEA7076FD8B552315A0F35C857EA5B7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -479,18 +479,18 @@
 		};
 		792A4D3615BEE854469BBD92F3BD2DBC /* Pods-LCFastBuildListKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59E6A3D61E7B0C4A9C6C2DEDF9B72091 /* Build configuration list for PBXNativeTarget "Pods-LCFastBuildListKit_Example" */;
+			buildConfigurationList = C10AF6FC9CB9B5D0464F66F6FB6894F5 /* Build configuration list for PBXNativeTarget "Pods-LCFastBuildListKit_Example" */;
 			buildPhases = (
-				12CDFF1D9D41FBA2D78108398FDA7FFF /* Headers */,
-				F996004EC9D819730CF08725C305F8AD /* Sources */,
-				34B40F5D5568B7F48CB24B0F5F241FBF /* Frameworks */,
-				E1A19B68E8140717D1B1A67000D1EA6C /* Resources */,
+				AC064CE48B8A420E45E3C30CC328CCF1 /* Headers */,
+				86D259B5E4227ABFDA03D5BDFA0E1760 /* Sources */,
+				29A0AC5C2B62BEBFEB6D4557C6BEBD5E /* Frameworks */,
+				B61C7EA5BF236B098F7587129070D467 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				17A5A71D586C793CF855F6EDF6C48CB8 /* PBXTargetDependency */,
-				F5EF1774697F85B0F079B08F0EC92C4E /* PBXTargetDependency */,
+				38D133D36FB54AE6FC7A30547CA5531B /* PBXTargetDependency */,
+				313B44012CC3E33D84D8A04925E37762 /* PBXTargetDependency */,
 			);
 			name = "Pods-LCFastBuildListKit_Example";
 			productName = "Pods-LCFastBuildListKit_Example";
@@ -499,17 +499,17 @@
 		};
 		9E8AAC03068D1A4D46673CE02DEBDD15 /* Pods-LCFastBuildListKit_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84CBAAB1AF24A62391D0ED425C36B9BD /* Build configuration list for PBXNativeTarget "Pods-LCFastBuildListKit_Tests" */;
+			buildConfigurationList = CBCA27A0D5412A5050740C2B9C81E68A /* Build configuration list for PBXNativeTarget "Pods-LCFastBuildListKit_Tests" */;
 			buildPhases = (
-				B0BE71A9228CB83BF67087F169D4A2BA /* Headers */,
-				7C0E93426C4BB93A5FB1E656C1F1CF39 /* Sources */,
-				C027AA5C1ADF8B5B267BA3330653FC16 /* Frameworks */,
-				0A420CC731BE139E50E5281F70BBA911 /* Resources */,
+				E9DC00183994372B6962DC6FCFB7BB92 /* Headers */,
+				131364B6AF4EC7A0C454B5FF2EE042DF /* Sources */,
+				417AF49FCB021914B9C4EA7DA39CCB0A /* Frameworks */,
+				A95198AB4358DE052241EF6DCB783071 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2CAF5BA5A9A607003B6BA85F35E8E68E /* PBXTargetDependency */,
+				749704275DF5352AD9E676D0F82F51F8 /* PBXTargetDependency */,
 			);
 			name = "Pods-LCFastBuildListKit_Tests";
 			productName = "Pods-LCFastBuildListKit_Tests";
@@ -522,8 +522,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -546,28 +546,28 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0A420CC731BE139E50E5281F70BBA911 /* Resources */ = {
+		27DCB178658F1203228B3FB809CCB459 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BE7E5941B6062FBCA3B8FD5BAB3D1EB /* Resources */ = {
+		5BEA7076FD8B552315A0F35C857EA5B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB6669D75AE898638E30418849C7A509 /* Resources */ = {
+		A95198AB4358DE052241EF6DCB783071 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1A19B68E8140717D1B1A67000D1EA6C /* Resources */ = {
+		B61C7EA5BF236B098F7587129070D467 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -577,79 +577,140 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3CD87D1D5EC00B1276582BB0A94EED86 /* Sources */ = {
+		131364B6AF4EC7A0C454B5FF2EE042DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				373DCF23F1C61BD1DB3EF911F9F7C07C /* LCFastBuildListKit-dummy.m in Sources */,
-				657F81E98C27B19998714EF80867AB9B /* ZLCollectionViewDelegateManager.m in Sources */,
-				49EF3820F48F5D8FAB1C7D680F1A9022 /* ZLCollectionViewRowModel.m in Sources */,
-				DDF466CFE393FECB7494C3423DEB9ABC /* ZLCollectionViewSectionModel.m in Sources */,
-				7D1E4BF021B46EB44B47AB887D45A121 /* ZLTableViewDelegateManager.m in Sources */,
-				5317505CEF898DC0E36F3BD0A43F13C2 /* ZLTableViewRowModel.m in Sources */,
-				458BBF050749F094EB1EA91259367999 /* ZLTableViewSectionModel.m in Sources */,
+				39472C571D0F9DDAEF35CA6FCF004DB6 /* Pods-LCFastBuildListKit_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47CEA411B507319B310431D8592FEDF1 /* Sources */ = {
+		447536A39A8208BA9B18E4EFE4A3004B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E0A940088E998347E3E0810B1F8430A /* UITableView+FDIndexPathHeightCache.m in Sources */,
-				14F505E2E40EC2598E8DAD57F32E9761 /* UITableView+FDKeyedHeightCache.m in Sources */,
-				0379FAD524DC04EF29AE4DCED6957162 /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */,
-				15378C049D9B0CD9928DE2B76D2E97F7 /* UITableView+FDTemplateLayoutCell.m in Sources */,
-				391078E3560A78085D4AF9FEE12235F1 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
+				AEE9EACE5C0E87E18EB45AECE92845BA /* UITableView+FDIndexPathHeightCache.m in Sources */,
+				01F267A598F1C0E990334DE2269BAB19 /* UITableView+FDKeyedHeightCache.m in Sources */,
+				6AD78692A0FC31C5BA29F0062A962CE3 /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */,
+				B0A56782E90085014E15F236AF4DFB01 /* UITableView+FDTemplateLayoutCell.m in Sources */,
+				3578EADC748AA527100C2398C2F4F3C2 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C0E93426C4BB93A5FB1E656C1F1CF39 /* Sources */ = {
+		86D259B5E4227ABFDA03D5BDFA0E1760 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B373BDF8FC00B4622A9780ACF6614B72 /* Pods-LCFastBuildListKit_Tests-dummy.m in Sources */,
+				8F90A2BC2F6508AA9C8953C717A1210B /* Pods-LCFastBuildListKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F996004EC9D819730CF08725C305F8AD /* Sources */ = {
+		D34CEB5B620F790F045A65B54B671E77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4763333D4DA05A774B4FCF3A133CB3D /* Pods-LCFastBuildListKit_Example-dummy.m in Sources */,
+				93B072A511E30B388A0F058C194FB98C /* LCFastBuildListKit-dummy.m in Sources */,
+				A83B5AFAEE10ADACD3EA1D57035EA541 /* ZLCollectionViewDelegateManager.m in Sources */,
+				FB2C35D7FF12FCF48A29A8465D068D6D /* ZLCollectionViewRowModel.m in Sources */,
+				B4B584F7CA50DE9FE1F9ABD0EE97ABE2 /* ZLCollectionViewSectionModel.m in Sources */,
+				F97BDF63D01C3F09507E635324D167CD /* ZLTableViewDelegateManager.m in Sources */,
+				FF5D2B69D1C4D992254A4A1BE8ED2149 /* ZLTableViewRowModel.m in Sources */,
+				47436E7C3A29B22F1F55C42AF592E0FF /* ZLTableViewSectionModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		17A5A71D586C793CF855F6EDF6C48CB8 /* PBXTargetDependency */ = {
+		313B44012CC3E33D84D8A04925E37762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UITableView+FDTemplateLayoutCell";
+			target = 2006263064A94C0063192AE0D2C3F409 /* UITableView+FDTemplateLayoutCell */;
+			targetProxy = 3A91B7546589D4BFBA37B0904C8533E7 /* PBXContainerItemProxy */;
+		};
+		38D133D36FB54AE6FC7A30547CA5531B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LCFastBuildListKit;
 			target = 102C4A324CC9EF4E2B33B7A29B72DBE8 /* LCFastBuildListKit */;
-			targetProxy = 968935FC5074C6FEC5B436D546F1C62F /* PBXContainerItemProxy */;
+			targetProxy = EFA50E75BF011F1E04B6430F51824092 /* PBXContainerItemProxy */;
 		};
-		2CAF5BA5A9A607003B6BA85F35E8E68E /* PBXTargetDependency */ = {
+		749704275DF5352AD9E676D0F82F51F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LCFastBuildListKit_Example";
 			target = 792A4D3615BEE854469BBD92F3BD2DBC /* Pods-LCFastBuildListKit_Example */;
-			targetProxy = FB70745E6013E7DEADA4D11BD155E9BC /* PBXContainerItemProxy */;
+			targetProxy = 8A908AFD73AF6821AC1DD3063DF3C806 /* PBXContainerItemProxy */;
 		};
-		E23C8DFA6811F64D91F048D1FFCDDDB8 /* PBXTargetDependency */ = {
+		7EADEFE2017AAB6AF104255D2D87D857 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "UITableView+FDTemplateLayoutCell";
 			target = 2006263064A94C0063192AE0D2C3F409 /* UITableView+FDTemplateLayoutCell */;
-			targetProxy = DAE4FF90E59E020E5FC2DCA2EAE80C9A /* PBXContainerItemProxy */;
-		};
-		F5EF1774697F85B0F079B08F0EC92C4E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "UITableView+FDTemplateLayoutCell";
-			target = 2006263064A94C0063192AE0D2C3F409 /* UITableView+FDTemplateLayoutCell */;
-			targetProxy = D19C0DC9040E9B49214060F75BA1931A /* PBXContainerItemProxy */;
+			targetProxy = 48794238903B4C010AA1A7709A2554B8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02BC5CF0BEC91B849B7BE7AE00D97E93 /* Release */ = {
+		447D0DD0B4C823D61C381FE56D9AD15B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940E7F8A5753A753C9E708D3BC33D700 /* UITableView+FDTemplateLayoutCell.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell.modulemap";
+				PRODUCT_MODULE_NAME = UITableView_FDTemplateLayoutCell;
+				PRODUCT_NAME = UITableView_FDTemplateLayoutCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4901A115AFA407A6BEAA9B2D678E5589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82C260998565D4A6A87090313F8239CA /* LCFastBuildListKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LCFastBuildListKit/LCFastBuildListKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LCFastBuildListKit/LCFastBuildListKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LCFastBuildListKit/LCFastBuildListKit.modulemap";
+				PRODUCT_MODULE_NAME = LCFastBuildListKit;
+				PRODUCT_NAME = LCFastBuildListKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49274B03D18929179DC9F9306ED6F7B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F0D8D88B37B33226A0F4C4BD9C919E53 /* Pods-LCFastBuildListKit_Tests.release.xcconfig */;
 			buildSettings = {
@@ -682,100 +743,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		1C7660CD6D9057D14227F7B516340BB6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 940E7F8A5753A753C9E708D3BC33D700 /* UITableView+FDTemplateLayoutCell.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell.modulemap";
-				PRODUCT_MODULE_NAME = UITableView_FDTemplateLayoutCell;
-				PRODUCT_NAME = UITableView_FDTemplateLayoutCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2352FC974CFA5171C98D7EDEBE242FA1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 061458F014D8C26C019A5336B42CDE0B /* Pods-LCFastBuildListKit_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LCFastBuildListKit_Tests/Pods-LCFastBuildListKit_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LCFastBuildListKit_Tests/Pods-LCFastBuildListKit_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2F67D30AE7B3395FC266F60D456033D0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82C260998565D4A6A87090313F8239CA /* LCFastBuildListKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LCFastBuildListKit/LCFastBuildListKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LCFastBuildListKit/LCFastBuildListKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LCFastBuildListKit/LCFastBuildListKit.modulemap";
-				PRODUCT_MODULE_NAME = LCFastBuildListKit;
-				PRODUCT_NAME = LCFastBuildListKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -834,6 +801,70 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		539A22D8F9C0DC5871FE84DBAE70EB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9EE142328EFC75444B24B40FE94A9E3 /* Pods-LCFastBuildListKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LCFastBuildListKit_Example/Pods-LCFastBuildListKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCFastBuildListKit_Example/Pods-LCFastBuildListKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		605206224807721BAED8DB1D71869CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82C260998565D4A6A87090313F8239CA /* LCFastBuildListKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LCFastBuildListKit/LCFastBuildListKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LCFastBuildListKit/LCFastBuildListKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LCFastBuildListKit/LCFastBuildListKit.modulemap";
+				PRODUCT_MODULE_NAME = LCFastBuildListKit;
+				PRODUCT_NAME = LCFastBuildListKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -901,71 +932,7 @@
 			};
 			name = Debug;
 		};
-		A3BD4EB689AE5A84A6A9060C9C0480E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82C260998565D4A6A87090313F8239CA /* LCFastBuildListKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LCFastBuildListKit/LCFastBuildListKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LCFastBuildListKit/LCFastBuildListKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LCFastBuildListKit/LCFastBuildListKit.modulemap";
-				PRODUCT_MODULE_NAME = LCFastBuildListKit;
-				PRODUCT_NAME = LCFastBuildListKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B3E20AFC12D84CE295FE8677AABB8349 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9EE142328EFC75444B24B40FE94A9E3 /* Pods-LCFastBuildListKit_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LCFastBuildListKit_Example/Pods-LCFastBuildListKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LCFastBuildListKit_Example/Pods-LCFastBuildListKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B4116F8DAF4333E5CE08ACBC92EB6FAC /* Release */ = {
+		AF241789BE80FDAC4A2E77B2F9508AE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B992A2E8FB763E8A9FE358472E54EFD /* Pods-LCFastBuildListKit_Example.release.xcconfig */;
 			buildSettings = {
@@ -999,7 +966,40 @@
 			};
 			name = Release;
 		};
-		E48588D33CE84A39A5671965FC0DA6B8 /* Debug */ = {
+		DF0A0110C53BFD2D983276F8B92702B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 061458F014D8C26C019A5336B42CDE0B /* Pods-LCFastBuildListKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LCFastBuildListKit_Tests/Pods-LCFastBuildListKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LCFastBuildListKit_Tests/Pods-LCFastBuildListKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EBAAA607B7060895A0302501CB4BC50C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 940E7F8A5753A753C9E708D3BC33D700 /* UITableView+FDTemplateLayoutCell.xcconfig */;
 			buildSettings = {
@@ -1032,15 +1032,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0F59A41A827AAE969743AFD88D1B5437 /* Build configuration list for PBXNativeTarget "UITableView+FDTemplateLayoutCell" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E48588D33CE84A39A5671965FC0DA6B8 /* Debug */,
-				1C7660CD6D9057D14227F7B516340BB6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1050,29 +1041,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59E6A3D61E7B0C4A9C6C2DEDF9B72091 /* Build configuration list for PBXNativeTarget "Pods-LCFastBuildListKit_Example" */ = {
+		C10AF6FC9CB9B5D0464F66F6FB6894F5 /* Build configuration list for PBXNativeTarget "Pods-LCFastBuildListKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3E20AFC12D84CE295FE8677AABB8349 /* Debug */,
-				B4116F8DAF4333E5CE08ACBC92EB6FAC /* Release */,
+				539A22D8F9C0DC5871FE84DBAE70EB65 /* Debug */,
+				AF241789BE80FDAC4A2E77B2F9508AE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84CBAAB1AF24A62391D0ED425C36B9BD /* Build configuration list for PBXNativeTarget "Pods-LCFastBuildListKit_Tests" */ = {
+		CBCA27A0D5412A5050740C2B9C81E68A /* Build configuration list for PBXNativeTarget "Pods-LCFastBuildListKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2352FC974CFA5171C98D7EDEBE242FA1 /* Debug */,
-				02BC5CF0BEC91B849B7BE7AE00D97E93 /* Release */,
+				DF0A0110C53BFD2D983276F8B92702B6 /* Debug */,
+				49274B03D18929179DC9F9306ED6F7B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E26976087E9956C65F2F405B14318A82 /* Build configuration list for PBXNativeTarget "LCFastBuildListKit" */ = {
+		D37B1DC971E485B2CA1C3A2A0A1AD8DF /* Build configuration list for PBXNativeTarget "LCFastBuildListKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F67D30AE7B3395FC266F60D456033D0 /* Debug */,
-				A3BD4EB689AE5A84A6A9060C9C0480E5 /* Release */,
+				4901A115AFA407A6BEAA9B2D678E5589 /* Debug */,
+				605206224807721BAED8DB1D71869CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE22020A90843342D2862BC91E33FDD6 /* Build configuration list for PBXNativeTarget "UITableView+FDTemplateLayoutCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAAA607B7060895A0302501CB4BC50C /* Debug */,
+				447D0DD0B4C823D61C381FE56D9AD15B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

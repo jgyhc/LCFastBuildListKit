@@ -1,5 +1,5 @@
 PODS:
-  - LCFastBuildListKit (0.2.5):
+  - LCFastBuildListKit (0.2.8):
     - "UITableView+FDTemplateLayoutCell"
   - "UITableView+FDTemplateLayoutCell (1.6)"
 
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LCFastBuildListKit: 892ceaa47433fdbf72aad19cf0e51045d8b8563b
+  LCFastBuildListKit: 7b47a5a59fe38403ed9e5fb495ecd08307a94701
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
 
 PODFILE CHECKSUM: 71e311f5133fee00199f3aab080f62819b49fbab
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.7.4
