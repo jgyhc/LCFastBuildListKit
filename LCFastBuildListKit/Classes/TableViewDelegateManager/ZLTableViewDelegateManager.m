@@ -113,10 +113,18 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    ZLTableViewSectionModel *sectionModel = self.datas[indexPath.section];
-    ZLTableViewRowModel *rowModel = sectionModel.items[indexPath.row];
-    if (self.delegate && [self.delegate respondsToSelector:@selector(didSelectRowAtModel:manager:indexPath:)]) {
-        [self.delegate didSelectRowAtModel:rowModel manager:self indexPath:indexPath];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(tableView:didSelectRowAtIndexPath:)]) {
+        [self.delegate tableView:tableView didSelectRowAtIndexPath:indexPath];
+    }else {
+        if (self.datas.count > indexPath.section) {
+            ZLTableViewSectionModel *sectionModel = self.datas[indexPath.section];
+            if (sectionModel.items.count > indexPath.row) {
+                ZLTableViewRowModel *rowModel = sectionModel.items[indexPath.row];
+                if (self.delegate && [self.delegate respondsToSelector:@selector(didSelectRowAtModel:manager:indexPath:)]) {
+                    [self.delegate didSelectRowAtModel:rowModel manager:self indexPath:indexPath];
+                }
+            }
+        }
     }
 }
 

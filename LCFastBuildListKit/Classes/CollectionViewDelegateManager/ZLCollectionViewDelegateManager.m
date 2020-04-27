@@ -116,10 +116,18 @@
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    ZLCollectionViewSectionModel *sectionModel = self.datas[indexPath.section];
-    ZLCollectionViewRowModel *rowModel = sectionModel.items[indexPath.row];
-    if (self.delegate && [self.delegate respondsToSelector:@selector(didSelectRowAtModel:manager:indexPath:)]) {
-        [self.delegate didSelectRowAtModel:rowModel manager:self indexPath:indexPath];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(collectionView:didSelectItemAtIndexPath:)]) {
+        [self.delegate collectionView:collectionView didSelectItemAtIndexPath:indexPath];
+    }else {
+        if (self.datas.count > indexPath.section) {
+            ZLCollectionViewSectionModel *sectionModel = self.datas[indexPath.section];
+            if (sectionModel.items.count > indexPath.row) {
+                ZLCollectionViewRowModel *rowModel = sectionModel.items[indexPath.row];
+                if (self.delegate && [self.delegate respondsToSelector:@selector(didSelectRowAtModel:manager:indexPath:)]) {
+                    [self.delegate didSelectRowAtModel:rowModel manager:self indexPath:indexPath];
+                }
+            }
+        }
     }
 }
 
